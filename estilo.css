@@ -3,35 +3,28 @@
 	flex-direction: wrap;
 	background: black;
 	height: auto;
-	border: 3px solid red
+	border: 3px solid red;
+	width: 100%;
 	;
-}
-.contenedor2 {
-	display: flex;
-	flex-direction: wrap;
-	height: auto;
 }
 .caja {
 	width: 100%;
 	background: red;
 	border: 1px solid white;
 }
-
-
-@media (max-width: 320px) {
-	.caja {
-		background: blue;
-		border: 1px solid white;
-	}
+@media screen and (max-width: 800px) {
 	.contenedor {
 	display: flex;
 	flex-direction: column;
 	background: black;
 	height: auto;
-}
-.contenedor2 {
-	display: flex;
-	flex-direction: column;
-	height: auto;
-}
+	width: 100%;
+	}
+	.caja {
+		background: green;
+		width: 100%;
+		border: 1px solid white;
+		color: white;
+	}
+
 }
